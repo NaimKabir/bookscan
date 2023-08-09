@@ -11,6 +11,13 @@ body {
     padding: 20px;
 }
 
+footer {
+  margin-top: auto; /* push the footer to the bottom */
+  padding: 10px;
+  background-color: #444444; /* same as your body background for consistency */
+  text-align: center;
+}
+
 .section {
   max-width: 800px; /* Adjust this value to your desired width */
   padding: 0 20px; /* Some padding on the sides for small screens */
