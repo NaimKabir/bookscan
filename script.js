@@ -1,9 +1,9 @@
 const inputElem = document.getElementById('animatedInput');
 const startBtn = document.getElementById('startBtn');
-const textToAnimate = "Hello. I am a very petty creature who is unthinkingly reactive and takes particular delight in destroying innocent projects.\n" + 
+const textToAnimate = "Hello.\n" + 
 "I have a very poor grasp of the difference between generative and descriptive machine learning, and honestly, just seeing the letters 'A' and 'I' next to each other in any context makes me furious.\n" +
-"Instead of engaging with folks who point out the flaws in my argument or point out convincing analogue technologies that clearly respect fair use, I instead elect to tear down a creator who took special care to mitigate any such copyright risks to the writing community.\n" +
-"I should feel ashamed of myself, but instead will pat myself on the back because this feels enough like a victory. Yay!";
+"Instead of engaging with people who point out the flaws in my argument or point out convincing analogue technologies that clearly respect fair use, I instead elect to tear down a creator who took special care to mitigate any such copyright risks to the writing community.\n" +
+"I should feel ashamed of myself, but instead will pat myself on the back because this feels enough like a victory. Yay me!";
 
 let index = 0;
 
