@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #444444;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.section {
+  max-width: 800px; /* Adjust this value to your desired width */
+  padding: 0 20px; /* Some padding on the sides for small screens */
+  margin: 0 auto; /* Horizontal centering */
+}
+
+.generated {
+  background-color: black;
+  color: green;
+  font-family: 'Courier New', monospace;
+  border-radius: 5px;
+  padding: 10px 20px; /* Add some padding to give it space */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add margin to separate from other elements */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#animatedText {
+    margin-top: 20px; /* Add margin to separate from other elements */
+}

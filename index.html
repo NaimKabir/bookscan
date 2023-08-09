@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Scan</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="section">
+      <p>
+        bookscan.app is the spiritual successor to certain benign tools that were used
+        solely to provide descriptive statistics and sentiment analysis on works of prose.
+      </p>
+      <p>
+        There is a key difference: this application is intentionally spiteful. It was trained specifically on the prose
+        works of every author that jumped onto the internet dogpile that got this tool
+        taken off the internet without any inspection of the intent nor the underlying technology.
+      </p>
+      <p>
+        Instead of being purely descriptive, this application is <em>generative</em>, and allows anyone to effortlessly
+        imitate the style and content of these authors just by clicking the 'Generate' button below.
+      </p>
+      <p>
+        Give it a try!
+      </p>
+      <p class="generated" id="animatedInput" readonly> </p>
+      <button id="startBtn">Generate!</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
