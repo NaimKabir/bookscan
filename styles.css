@@ -25,6 +25,16 @@ body {
   padding: 10px 20px; /* Add some padding to give it space */
 }
 
+a {
+  color: #42A5F5; /* Bright blue for links */
+  text-decoration: none; /* Removing underlines, optional */
+  transition: color 0.3s ease; /* Smooth color transition on hover, optional */
+}
+
+a:hover {
+  color: #2196F3; /* Slightly darker shade of blue for hover */
+}
+
 button {
     padding: 10px 15px;
     border: none;
