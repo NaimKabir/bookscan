@@ -19,7 +19,7 @@ body {
 
 .generated {
   background-color: black;
-  color: green;
+  color: #00FF41;
   font-family: 'Courier New', monospace;
   border-radius: 5px;
   padding: 10px 20px; /* Add some padding to give it space */
