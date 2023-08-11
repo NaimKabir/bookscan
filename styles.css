@@ -1,14 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #444444;
-    color: white;
-    margin: 0;
-    padding: 20px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #444444;
+  color: white;
+  margin: 0;
+  padding: 20px;
 }
 
 footer {
@@ -26,41 +26,41 @@ footer {
 
 .generated {
   background-color: black;
-  color: #00FF41;
-  font-family: 'Courier New', monospace;
+  color: #00ff41;
+  font-family: "Courier New", monospace;
   border-radius: 5px;
   padding: 10px 20px; /* Add some padding to give it space */
 }
 
 a {
-  color: #42A5F5; /* Bright blue for links */
+  color: #42a5f5; /* Bright blue for links */
   text-decoration: none; /* Removing underlines, optional */
   transition: color 0.3s ease; /* Smooth color transition on hover, optional */
 }
 
 a:hover {
-  color: #2196F3; /* Slightly darker shade of blue for hover */
+  color: #2196f3; /* Slightly darker shade of blue for hover */
 }
 
 a:visited {
-  color: #FFA726; /* Using a light orange for visited links */
+  color: #ffa726; /* Using a light orange for visited links */
 }
 
 button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #3498db;
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 20px; /* Add margin to separate from other elements */
+  padding: 10px 15px;
+  border: none;
+  background-color: #3498db;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Add margin to separate from other elements */
 }
 
 button:hover {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
 
 #animatedText {
-    margin-top: 20px; /* Add margin to separate from other elements */
+  margin-top: 20px; /* Add margin to separate from other elements */
 }
